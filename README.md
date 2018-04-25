@@ -12,6 +12,7 @@ Currently this is a very basic, single-player and single-map game where you star
 * Hold left click over your workers and drag them to the location you want to send them. (used for upgrading own planets or conquering other planets)
 * Clicking on a planet will also send all workers around that planet (within the reticle) into the planet to upgrade or heal it (no need to hold).
 * You can send your workers to random points in space if you want to prepare a large amount of workers around a planet before you attack.
+* Pause the game by pressing 'P'.
 
 ## Plans
 
