@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Australis</title>
-<script type="text/javascript" src="lib/jquery.js"></script>
-<script type="text/javascript" src="lib/Tween.js"></script>
-<script type="text/javascript" src="src/Planet.js"></script>
-<script type="text/javascript" src="src/Worker.js"></script>
-<script type="text/javascript" src="src/Team.js"></script>
-<script type="text/javascript" src="src/Level.js"></script>
-<script type="text/javascript" src="src/DrawHelper.js"></script>
-<script type="text/javascript" src="src/Game.js"></script>
+  <head>
+    <title>Australis</title>
 
-<style type="text/css">
-#myCanvas {
-	cursor: none;
-}
-</style>
-</head>
-<body>
-<div style="position: relative;">
- <canvas id="layer1" width="800" height="600" 
-   style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
- <canvas id="myCanvas" width="800" height="600" 
-   style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
-</div>
-</body>
+    <link rel="stylesheet" type="text/css" href="src/css/main.css">
+  </head>
+
+  <body>
+    <div>
+      <canvas id="planets" width="800" height="600"></canvas>
+
+      <canvas id="main" width="800" height="600"></canvas>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/Tween.js"></script>
+    <script type="text/javascript" src="src/Planet.js"></script>
+    <script type="text/javascript" src="src/Worker.js"></script>
+    <script type="text/javascript" src="src/Team.js"></script>
+    <script type="text/javascript" src="src/Level.js"></script>
+    <script type="text/javascript" src="src/DrawHelper.js"></script>
+    <script type="text/javascript" src="src/Game.js"></script>
+  </body>
 </html>

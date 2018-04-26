@@ -360,9 +360,9 @@ $(function() {
 
 	}
 	TWEEN.start();
-	var canvas = document.getElementById("myCanvas");
+	var canvas = document.getElementById("main");
 	var context = canvas.getContext("2d");
-	var planetContext = document.getElementById("layer1").getContext("2d");
+	var planetContext = document.getElementById("planets").getContext("2d");
 	
 	game = new Game(context, canvas, planetContext);
 	

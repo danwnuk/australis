@@ -1,0 +1,18 @@
+div {
+    position: relative;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#planets {
+    z-index: 0;
+}
+
+#main {
+    z-index: 1;
+    cursor: none;
+}
